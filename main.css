@@ -2,22 +2,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 h1 {
     display: flex;
     justify-content: center;
-    font-family: cursive;
+  
     color: white;
 }
 input {
     margin: 5px;
-    font-family: cursive;
+   
     color: white;
     background-color: gray;
  
 }
 legend {
-    font-family: cursive;
+   
     color: white;
 }
 .user {
@@ -33,11 +34,25 @@ body {
     background-color: gray;
 }
 .pc {
-    display: inline-block;
+ display:block;
 color: white;
 background-color: gray;
+
 }
 .mainspec {
     display: flex;
     justify-content: center;
+}
+
+.mid {
+    width: 30%;
+}
+.mainfield {
+    width: 20%;
+}
+.right {
+    width: 50%;
+}
+.mas {
+    color: white;
 }

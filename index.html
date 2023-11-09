@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularz Komputer</title>
     <link rel="stylesheet" href="main.css">
-    <script src="main.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -26,27 +25,70 @@
         </fieldset>
     </main>
     <div class="mainspec">
-        <fieldset>
-            <legend>Specyfikacja Komputer NightBlade MI3</legend>
-            <fieldset>
+        <fieldset class="mainfield">
+           <legend>Złącza</legend>
+            <fieldset class="zla">
                 <legend>Złącza - panel tylny</legend>
                 <label class="pc">
-               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled>USB 2.0 - 2 szt.
-               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled>USB 3.2 Gen. 1 - 2 szt.
-               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled>Wejście/wyjścia audio - 5 szt.
-               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled>Wyjście S/PDIF - 1 szt.
-               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled>RJ-45 (LAN) - 1 szt.
-               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled>DVI (karta graficzna) - 1 szt.
-               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled>HDMI - 2 szt.
-               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled>HDMI (karta graficzna) - 1 szt.
-               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled>Display Port - 1 szt.
-               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled>Display Port (karta graficzna) - 3 szt.
-               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled>PS/2 Combo - 1 szt.
-               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled>AC-in (wejście zasilania) - 1 szt.
+               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled><br>USB 2.0 - 2 szt.
+               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled><br>USB 3.2 Gen. 1 - 2 szt.
+               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled><br>Wejście/wyjścia audio - 5 szt.
+               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled><br>Wyjście S/PDIF - 1 szt.
+               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled><br>RJ-45 (LAN) - 1 szt.
+               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled><br>DVI (karta graficzna) - 1 szt.
+               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled><br>HDMI - 2 szt.
+               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled><br>HDMI (karta graficzna) - 1 szt.
+               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled><br>Display Port - 1 szt.
+               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled><br>Display Port (karta graficzna) - 3 szt.
+               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled><br>PS/2 Combo - 1 szt.
+               <input class="spec" type="checkbox" value="checkbox" id="checkbox" checked="checked" disabled><br>AC-in (wejście zasilania) - 1 szt.
                 </label>
+       
             </fieldset>
-            <fieldset>ssssssssssssssssssssssssssssss</fieldset>
+           <label>
+            <fieldset</fieldset>
+           </label>
+        </fieldset>
+        <fieldset class="mid">
+            <legend>Ogólne</legend>
+<label class="mas">
+    Karta Graficzna: <input type="text" name="graf" id="graf" disabled value="NVIDIA GeForce GTX 1050Ti"><br>
+    Wbudowane napędy optyczne: <input type="text" name="nap" id="nap" value="Nagrywarka DVD+/-RW" id="nap" disabled><br>
+    Łączność: <input type="text" name="wifi" id="wifi" value="
+    Wi-Fi 5 (802.11 b/g/n/ac)" disabled >
+     <input type="text" name="wifi" id="wifi" value="LAN 10/100/1000 Mbps" disabled><br>
+     System: <input type="text" name="sys" id="sys" value="Windows 10 Home" disabled>
+     
+</label>
+        </fieldset>
+        <fieldset class="right">
+            <legend>Pamięci Komputera</legend>
+<fieldset>
+    <legend>Pamięć Masowa</legend>
+    <label class="mas">
+    Dysk HDD SATA 7200 obr. [Gb]: <input type="number" value="1000" disabled name="1000" id="1000"><br>
+    Opcje dołożenia dysków: <input type="text" name="odd" id="odd" value="Możliwość montażu dysku M.2" disabled>
+</label>
+</fieldset>
+<fieldset>
+    <legend>Pamięć RAM</legend>
+<label class="mas">
+    Pamięć RAM [Gb]: <input type="number" value="8"  name="8" id="ram" disabled><br>
+    Maksymalna obsługiwana ilość pamięci RAM [Gb]: <input type="number" name="max" id="max" value="32" disabled><br>
+    Liczba gniazd pamięci (ogółem): <input type="number" value="2" disabled id="free" name="free">
+   
+</label>
+</fieldset>
         </fieldset>
     </div>
+    <fieldset>
+        <legend>Wymiary</legend>
+      <label class="user">
+        Wysokość [mm]: <input type="number" value="265" id="wys" name="wys" disabled> 
+        Szerokość [mm]: <input type="number" value="128" id="sze" name="sze" disabled> 
+        Głębokość [mm]: <input type="number" value="341" id="gl" name="gl" disabled> 
+        Waga [Kg]: <input type="number" value="6.5" id="wag" name="wag" disabled>
+     </label>
+    </fieldset>
 </body>
 </html>
