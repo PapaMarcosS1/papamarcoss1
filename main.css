@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    color: white;
+}
+input {
+    margin: 5px;
+    font-family: cursive;
+    color: white;
+    background-color: gray;
+ 
+}
+legend {
+    font-family: cursive;
+    color: white;
+}
+.user {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+}
+fieldset {
+    background-color: gray;
+}
+body {
+    background-color: gray;
+}
+.pc {
+    display: inline-block;
+color: white;
+background-color: gray;
+}
+.mainspec {
+    display: flex;
+    justify-content: center;
+}
